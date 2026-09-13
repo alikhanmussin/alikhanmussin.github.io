@@ -86,6 +86,8 @@ figcaption { padding: 1rem 1.5rem; color: #a1aec1; border-top: 1px solid var(--l
 .secondary-identity h3 span { color: var(--accent); }
 .project-year { color: var(--muted); font-size: .875rem; }
 .secondary-identity .project-stack { margin-bottom: 0; }
+.secondary-source { margin-top: 1.5rem; }
+.secondary-story .feature-list h5 { margin: 0 0 .4rem; font-size: 1rem; font-weight: 500; }
 .secondary-story h4 { font-size: 1.25rem; font-weight: 500; letter-spacing: -.02em; margin: 0 0 1rem; }
 .secondary-story p { color: var(--muted); font-size: 1rem; line-height: 1.8; }
 .contribution { margin-top: 1.6rem; padding-top: 1.4rem; border-top: 1px solid var(--line); }
