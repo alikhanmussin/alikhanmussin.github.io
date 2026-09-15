@@ -87,6 +87,15 @@ figcaption { padding: 1rem 1.5rem; color: #a1aec1; border-top: 1px solid var(--l
 .project-year { color: var(--muted); font-size: .875rem; }
 .secondary-identity .project-stack { margin-bottom: 0; }
 .secondary-source { margin-top: 1.5rem; }
+.project-benchmarks { margin-top: 1.8rem; padding: 1.25rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.project-benchmarks .benchmark-caption { color: var(--accent); font-size: .6875rem; letter-spacing: .1em; }
+.benchmark-metrics { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 1rem 0; }
+.benchmark-metrics > div { flex: 1 1 150px; min-width: 0; }
+.benchmark-metrics dt { color: #b5c3d7; font-size: .875rem; line-height: 1.5; }
+.benchmark-metrics dd { margin: .4rem 0 0; }
+.benchmark-metrics strong { display: block; color: var(--accent); font: 500 2rem/1.2 'Manrope', sans-serif; letter-spacing: -.04em; }
+.benchmark-metrics dd span { display: block; margin-top: .4rem; color: var(--muted); font-size: .8125rem; line-height: 1.6; }
+.project-benchmarks .benchmark-note { color: var(--muted); font-size: .8125rem; line-height: 1.6; }
 .secondary-story .feature-list h5 { margin: 0 0 .4rem; font-size: 1rem; font-weight: 500; }
 .secondary-story h4 { font-size: 1.25rem; font-weight: 500; letter-spacing: -.02em; margin: 0 0 1rem; }
 .secondary-story p { color: var(--muted); font-size: 1rem; line-height: 1.8; }

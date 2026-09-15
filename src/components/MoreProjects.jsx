@@ -1,4 +1,5 @@
 import { additionalProjects } from '../data/projects'
+import ProjectBenchmarks from './ProjectBenchmarks'
 
 export default function MoreProjects() {
   return (
@@ -17,6 +18,7 @@ export default function MoreProjects() {
           <div className="secondary-story">
             <h4>{project.headline}</h4>
             <p>{project.description}</p>
+            {project.benchmarks && <ProjectBenchmarks name={project.name} metrics={project.benchmarks} />}
             {project.features && <ol className="feature-list">{project.features.map((feature, index) => (
               <li key={feature.title}><span>{String(index + 1).padStart(2, '0')}</span><div><h5>{feature.title}</h5><p>{feature.description}</p></div></li>
             ))}</ol>}

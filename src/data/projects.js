@@ -1,3 +1,9 @@
+export const opsGraphBenchmarks = [
+  { value: '96.7%', label: 'Category accuracy', context: '58/60 labeled simulated incidents' },
+  { value: '76.7%', label: 'Severity accuracy', context: '46/60 labeled simulated incidents' },
+  { value: '90%', label: 'Top-5 historical-incident retrieval', context: '27/30 paraphrased semantic-search queries' },
+]
+
 export const additionalProjects = [
   {
     id: 'tracelite',
@@ -6,9 +12,13 @@ export const additionalProjects = [
     type: 'Personal project · Lightweight Error Monitoring Platform',
     headline: 'From application exceptions to actionable error reports.',
     description: 'A lightweight application error-monitoring platform with a Python SDK, FastAPI ingestion API, persistent event storage, duplicate-error grouping, automated tests, CI, and a React monitoring dashboard.',
+    benchmarks: [
+      { value: '100%', label: 'Capture rate', context: '30/30 simulated Python exception types' },
+      { value: '80%', label: 'Duplicate-record reduction', context: '100 simulated events → 20 grouped issues' },
+    ],
     features: [
-      { title: 'Capture the context', description: 'The Python SDK captures exceptions, stack traces, app name, and environment, then sends structured error events to the FastAPI ingestion API.' },
-      { title: 'Group repeated errors', description: 'SQLAlchemy and SQLite persist events. SHA-256 fingerprints group repeated exceptions and track occurrence counts.' },
+      { title: 'Capture the context', description: 'The benchmark verifies exception type, stack traces, application/environment metadata, and successful API delivery from the Python SDK.' },
+      { title: 'Group repeated errors', description: 'SHA-256 fingerprints group repeated exceptions in SQLite through SQLAlchemy. The benchmark avoided 80 duplicate records and verified correct occurrence counts.' },
       { title: 'Inspect and verify', description: 'A React dashboard displays grouped errors and stack traces. Backend and API integration tests run with pytest and GitHub Actions CI.' },
     ],
     contribution: 'Developed using feature branches, pull requests, code review, and merge workflows.',
