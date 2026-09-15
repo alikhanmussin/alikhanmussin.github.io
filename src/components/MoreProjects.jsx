@@ -7,7 +7,7 @@ export default function MoreProjects() {
       <p className="eyebrow">02 / SELECTED PROJECTS</p>
       <h2 id="more-projects-title" className="section-title">More problems. Thoughtful solutions.</h2>
       {additionalProjects.map(project => (
-        <article className="secondary-project" key={project.id}>
+        <article className="secondary-project" id={project.id} key={project.id}>
           <div className="secondary-identity">
             <p className="project-meta">{project.type}</p>
             <h3>{project.name}<span aria-hidden="true">.</span></h3>

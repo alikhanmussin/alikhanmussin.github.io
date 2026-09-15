@@ -1,3 +1,4 @@
+import SystemFlow from './SystemFlow'
 import ProjectBenchmarks from './ProjectBenchmarks'
 import { opsGraphBenchmarks } from '../data/projects'
 
@@ -32,6 +33,7 @@ export default function FeaturedProject({ source }) {
       <ul className="project-stack" aria-label="OpsGraph AI technologies">{stack.map(technology => <li key={technology}>{technology}</li>)}</ul>
       <details className="architecture">
         <summary>Under the hood <span aria-hidden="true">+</span></summary>
+        <SystemFlow />
         <div className="architecture-grid">
           <div><h3>Interface</h3><p>React provides incident input, search, filtering, analytics, and history views.</p></div>
           <div><h3>API & analysis</h3><p>FastAPI connects classification rules, Hugging Face zero-shot classification, and Sentence Transformer embeddings with cosine similarity. Classification was evaluated on 60 labeled simulated incidents, 10 per category; retrieval used 30 paraphrased queries with known relevant historical incidents.</p></div>
