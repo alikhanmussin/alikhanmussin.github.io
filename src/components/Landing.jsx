@@ -56,7 +56,6 @@ export default function Landing() {
       <div className="ambient-light" aria-hidden="true"><div className="light-arc" /><div className="light-arc arc-secondary" /></div>
       <div className="landing-coordinate" aria-hidden="true"><span>PORTFOLIO / 2026</span><span>PRAGUE, CZ</span></div>
       <div className="landing-copy">
-        <p className="landing-badge entrance" style={{ '--delay': '.1s' }}><span aria-hidden="true">✧</span> Open to internships</p>
         <p className="landing-eyebrow entrance" style={{ '--delay': '.2s' }}>ALIKHAN MUSSIN / IT STUDENT</p>
         <h1 id="hero-title"><span className="headline-line"><span className="entrance" style={{ '--delay': '.3s' }}>From complex data</span></span><span className="headline-line"><span className="entrance" style={{ '--delay': '.45s' }}>to <em>clear solutions.</em></span></span></h1>
         <p className="landing-intro entrance" style={{ '--delay': '.6s' }}>I’m Alikhan, an IT student at CZU Prague. I build with Python, data, and AI to turn information into useful software.</p>

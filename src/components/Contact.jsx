@@ -1,6 +1,6 @@
 export default function Contact() {
   return <><section className="contact-section" id="contact" aria-labelledby="contact-title">
-    <div><p className="eyebrow">06 / CONTACT</p><h2 className="section-title" id="contact-title">Let’s start a conversation.</h2><p className="contact-intro">Have an internship opportunity in data, AI, or software? I’d love to hear about it.</p></div>
+    <div><p className="eyebrow">06 / CONTACT</p><h2 className="section-title" id="contact-title">Let’s start a conversation.</h2></div>
     <div className="contact-links">
       <a href="/Alikhan-Mussin-CV.pdf" download><span>Resume</span><strong>Download CV · PDF</strong><span aria-hidden="true">↓</span></a>
       <a href="mailto:alikhanmussin07@gmail.com"><span>Email</span><strong>alikhanmussin07@gmail.com</strong><span aria-hidden="true">↗</span></a>
