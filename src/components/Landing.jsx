@@ -68,8 +68,8 @@ export default function Landing() {
         <div className="landing-meta"><p>SELECTED BENCHMARKS <span>· CONTROLLED, SIMULATED DATA</span></p><a href="#projects">Discover the work <span aria-hidden="true">↓</span></a></div>
         <div className="landing-stats">
           <a href="#tracelite"><strong>100<span>%</span></strong><span>TraceLite capture rate<small>30/30 simulated exception types</small></span></a>
-          <a href="#projects"><strong>96.7<span>%</span></strong><span>OpsGraph category accuracy<small>58/60 labeled simulated incidents</small></span></a>
-          <a href="#projects"><strong>90<span>%</span></strong><span>OpsGraph Top-5 retrieval<small>27/30 semantic-search queries</small></span></a>
+          <a href="#opsgraph"><strong>96.7<span>%</span></strong><span>OpsGraph category accuracy<small>58/60 labeled simulated incidents</small></span></a>
+          <a href="#opsgraph"><strong>90<span>%</span></strong><span>OpsGraph Top-5 retrieval<small>27/30 semantic-search queries</small></span></a>
         </div>
       </div>
     </section>

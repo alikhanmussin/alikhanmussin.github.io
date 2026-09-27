@@ -4,7 +4,7 @@ import ProjectBenchmarks from './ProjectBenchmarks'
 export default function MoreProjects() {
   return (
     <section className="more-projects" aria-labelledby="more-projects-title">
-      <p className="eyebrow">02 / SELECTED PROJECTS</p>
+      <p className="eyebrow">03 / MORE PROJECTS</p>
       <h2 id="more-projects-title" className="section-title">More problems. Thoughtful solutions.</h2>
       {additionalProjects.map(project => (
         <article className="secondary-project" id={project.id} key={project.id}>

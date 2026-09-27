@@ -1,7 +1,7 @@
-export default function ProjectBenchmarks({ name, metrics }) {
+export default function ProjectBenchmarks({ name, metrics, caption = 'CONTROLLED BENCHMARKS · SIMULATED DATA', note = 'Measured on controlled, simulated datasets; these are not production statistics.' }) {
   return (
     <div className="project-benchmarks" role="group" aria-label={`${name} benchmark results`}>
-      <p className="benchmark-caption">CONTROLLED BENCHMARKS · SIMULATED DATA</p>
+      <p className="benchmark-caption">{caption}</p>
       <dl className="benchmark-metrics">
         {metrics.map(metric => (
           <div key={metric.label}>
@@ -10,7 +10,7 @@ export default function ProjectBenchmarks({ name, metrics }) {
           </div>
         ))}
       </dl>
-      <p className="benchmark-note">Measured on controlled, simulated datasets; these are not production statistics.</p>
+      <p className="benchmark-note">{note}</p>
     </div>
   )
 }

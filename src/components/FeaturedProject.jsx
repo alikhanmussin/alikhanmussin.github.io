@@ -6,8 +6,8 @@ const stack = ['Python', 'FastAPI', 'React', 'SQLAlchemy', 'SQLite', 'Hugging Fa
 
 export default function FeaturedProject({ source }) {
   return (
-    <section className="featured-section" id="projects" aria-labelledby="featured-title">
-      <div className="section-heading"><p className="eyebrow">01 / FEATURED PROJECT</p><span>Personal project · 2026</span></div>
+    <section className="featured-section" id="opsgraph" aria-labelledby="featured-title">
+      <div className="section-heading"><p className="eyebrow">02 / OPSGRAPH AI</p><span>Personal project · 2026</span></div>
       <div className="project-heading">
         <div><h2 id="featured-title">OpsGraph <span>AI</span></h2><p className="project-subtitle">Incident intelligence, with a human in the loop.</p></div>
         <a className="button source-button" href={source} target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a>
