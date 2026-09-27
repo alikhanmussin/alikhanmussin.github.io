@@ -13,12 +13,11 @@ export default function FeaturedProject({ source }) {
         <a className="button source-button" href={source} target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a>
       </div>
       <div className="project-layout">
-        <figure className="project-preview">
-          <div className="preview-label"><span className="preview-dot" aria-hidden="true" />ANALYSIS WORKSPACE<span>LOCAL DEMO</span></div>
-          <a className="screenshot-link" href="/images/opsgraph-desktop.jpg" target="_blank" rel="noreferrer" aria-label="Open full OpsGraph AI analysis screenshot in a new tab">
-            <div className="screenshot-frame updated-workspace"><img src="/images/opsgraph-desktop.jpg" width="2879" height="1657" loading="lazy" alt="OpsGraph AI desktop workspace showing incident metrics and an authentication incident ready for analysis." /></div>
+        <figure className="project-preview opsgraph-preview">
+          <a className="screenshot-link" href="/images/opsgraph-pipeline.svg" target="_blank" rel="noreferrer" aria-label="Open full OpsGraph AI workflow diagram in a new tab">
+            <img src="/images/opsgraph-pipeline.svg" width="1200" height="720" loading="lazy" alt="Monochrome OpsGraph workflow: an incident passes through NLP and technical rules to a Storage classification, with semantic search for similar cases and human review." />
           </a>
-          <figcaption>Real application screenshot <span>Open full image ↗</span></figcaption>
+          <figcaption>Incident → classification → historical context<span>Illustrative workflow</span></figcaption>
         </figure>
         <div className="project-story">
           <p className="project-description">Operational incidents arrive as free text. I built a full-stack platform to classify them, find related cases, and help an analyst review the recommendation.</p>

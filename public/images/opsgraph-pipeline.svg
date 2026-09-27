@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">OpsGraph AI — from incident to context</title>
+  <desc id="desc">An illustrative incident about slow queries and full storage flows through NLP and technical rules to a Storage classification. Semantic search retrieves historical incidents, and human review informs future recommendations.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#252525"/><stop offset="1" stop-color="#070707"/></radialGradient>
+    <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#1a1a1a"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#424242"/><stop offset=".5" stop-color="#aaa"/><stop offset="1" stop-color="#424242"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="m2 1 4 3-4 3" fill="none" stroke="#929292"/></marker>
+  </defs>
+  <rect width="1200" height="720" fill="#070707"/>
+  <ellipse cx="594" cy="326" rx="390" ry="280" fill="url(#glow)"/>
+  <g fill="#888" font-family="Arial, sans-serif" font-size="15" letter-spacing="2.5">
+    <text x="62" y="64">OPSGRAPH / INCIDENT INTELLIGENCE</text><text x="1138" y="64" text-anchor="end">02</text>
+  </g>
+  <g fill="none" stroke="#494949" stroke-width="1.2" marker-end="url(#arrow)">
+    <path d="M350 322h153"/>
+    <path d="M681 322h57q20 0 20-20v-47q0-20 20-20h58"/>
+    <path d="M350 364h60q20 0 20 20v50q0 20 20 20h386"/>
+    <path d="M988 304v236q0 20-20 20H610" stroke-dasharray="4 6"/>
+    <path d="M559 560H449q-19 0-19-19v-51" stroke-dasharray="4 6"/>
+  </g>
+  <rect x="62" y="207" width="288" height="210" rx="7" fill="url(#surface)" stroke="#444"/>
+  <g stroke="#999" fill="none" stroke-width="1.5"><path d="M88 246h12l6-9 8 18 6-9h12"/></g>
+  <text x="145" y="250" fill="#aaa" font-family="Arial, sans-serif" font-size="17">INCIDENT</text>
+  <path d="M86 272h240" stroke="#303030"/>
+  <g fill="#e4e4e4" font-family="Arial, sans-serif" font-size="22">
+    <text x="87" y="315">Database queries</text><text x="87" y="345">are slow. Storage</text><text x="87" y="375">is almost full.</text>
+  </g>
+  <circle cx="592" cy="322" r="107" fill="none" stroke="#292929" stroke-dasharray="2 9"/>
+  <circle cx="592" cy="322" r="86" fill="url(#surface)" stroke="url(#edge)"/>
+  <g fill="none" stroke="#bbb" stroke-width="1.3">
+    <path d="m568 282 24-13 24 13-24 13zM568 292l24 13 24-13M568 302l24 13 24-13"/>
+  </g>
+  <text x="592" y="348" text-anchor="middle" fill="#eee" font-family="Arial, sans-serif" font-size="24">NLP + rules</text>
+  <text x="592" y="377" text-anchor="middle" fill="#8d8d8d" font-family="Arial, sans-serif" font-size="14">HYBRID ANALYSIS</text>
+  <rect x="837" y="173" width="300" height="132" rx="7" fill="url(#surface)" stroke="#626262"/>
+  <text x="860" y="209" fill="#aaa" font-family="Arial, sans-serif" font-size="15" letter-spacing="1.5">FINAL CATEGORY</text>
+  <text x="860" y="255" fill="#f2f2f2" font-family="Arial, sans-serif" font-size="36">Storage</text>
+  <text x="860" y="282" fill="#999" font-family="Arial, sans-serif" font-size="15">Decision source: Technical signal</text>
+  <rect x="837" y="384" width="300" height="130" rx="7" fill="url(#surface)" stroke="#444"/>
+  <text x="860" y="420" fill="#aaa" font-family="Arial, sans-serif" font-size="15" letter-spacing="1.5">HISTORICAL CONTEXT</text>
+  <g fill="none" stroke="#666"><rect x="861" y="444" width="31" height="40" rx="3"/><rect x="900" y="444" width="31" height="40" rx="3"/><rect x="939" y="444" width="31" height="40" rx="3"/></g>
+  <path d="M868 456h17m-17 8h12m22-8h17m-17 8h12m22-8h17m-17 8h12" stroke="#888"/>
+  <text x="990" y="464" fill="#ddd" font-family="Arial, sans-serif" font-size="18">Similar cases</text>
+  <rect x="501" y="441" width="190" height="26" fill="#0e0e0e"/>
+  <text x="596" y="459" fill="#999" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" letter-spacing="1.5">SEMANTIC SEARCH</text>
+  <circle cx="584" cy="560" r="23" fill="#151515" stroke="#555"/>
+  <path d="m574 560 7 7 13-15" fill="none" stroke="#ddd" stroke-width="1.5"/>
+  <text x="584" y="609" text-anchor="middle" fill="#999" font-family="Arial, sans-serif" font-size="16">Human review informs future recommendations</text>
+  <path d="M62 643h1076" stroke="#292929"/>
+  <g font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#777">
+    <text x="62" y="678">CLASSIFY / CONNECT / VALIDATE</text><text x="1138" y="678" text-anchor="end">ILLUSTRATIVE WORKFLOW</text>
+  </g>
+</svg>
