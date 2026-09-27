@@ -14,6 +14,12 @@ export default function MoreProjects() {
             <p className="project-year">{project.year}</p>
             <ul className="project-stack" aria-label={`${project.name} topics`}>{project.topics.map(topic => <li key={topic}>{topic}</li>)}</ul>
             {project.source && <a className="button source-button secondary-source" href={project.source} target="_blank" rel="noreferrer" aria-label={`View ${project.name} source on GitHub`}>View source <span aria-hidden="true">↗</span></a>}
+            {project.preview && <figure className="secondary-preview">
+              <a href={project.preview.src} target="_blank" rel="noreferrer" aria-label={`Open full ${project.name} workflow diagram in a new tab`}>
+                <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} loading="lazy" />
+              </a>
+              <figcaption>{project.preview.caption}<span>Illustrative workflow</span></figcaption>
+            </figure>}
           </div>
           <div className="secondary-story">
             <h4>{project.headline}</h4>

@@ -72,6 +72,10 @@ figcaption { padding: 1rem 1.5rem; color: #a1aec1; border-top: 1px solid var(--l
 .project-year { color: var(--muted); font-size: .875rem; }
 .secondary-identity .project-stack { margin-bottom: 0; }
 .secondary-source { margin-top: 1.5rem; }
+.secondary-preview { margin-top: 2rem; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #070707; }
+.secondary-preview a, .secondary-preview img { display: block; width: 100%; height: auto; }
+.secondary-preview figcaption { padding: .9rem 1rem; color: var(--muted); }
+.secondary-preview figcaption span { display: block; margin-top: .35rem; }
 .project-benchmarks { margin-top: 1.8rem; padding: 1.25rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .project-benchmarks .benchmark-caption { color: var(--accent); font-size: .6875rem; letter-spacing: .1em; }
 .benchmark-metrics { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 1rem 0; }

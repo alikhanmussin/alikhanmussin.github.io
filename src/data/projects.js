@@ -24,6 +24,13 @@ export const additionalProjects = [
     contribution: 'Developed using feature branches, pull requests, code review, and merge workflows.',
     topics: ['Python', 'FastAPI', 'SQLAlchemy', 'SQLite', 'React', 'pytest', 'GitHub Actions'],
     source: 'https://github.com/alikhanmussin/tracelite',
+    preview: {
+      src: '/images/tracelite-pipeline.svg',
+      alt: 'Monochrome TraceLite diagram: repeated exceptions pass through the Python SDK and FastAPI, then SHA-256 fingerprinting groups them into an issue with a stack trace and occurrence count.',
+      caption: 'Exceptions → capture → grouped issues',
+      width: 900,
+      height: 900,
+    },
   },
   {
     id: 'cognilock',

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">TraceLite — capture once, connect every occurrence</title>
+  <desc id="desc">Illustrative workflow: repeated Python exceptions are captured by the SDK, delivered through FastAPI, and grouped using SHA-256 fingerprints. A grouped issue retains occurrence counts and a stack trace for dashboard review.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#242424"/><stop offset="1" stop-color="#070707"/></radialGradient>
+    <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#202020"/><stop offset="1" stop-color="#0c0c0c"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="m2 1 4 3-4 3" fill="none" stroke="#aaa"/></marker>
+  </defs>
+  <rect width="900" height="900" fill="#070707"/>
+  <ellipse cx="450" cy="430" rx="420" ry="370" fill="url(#glow)"/>
+  <g fill="#999" font-family="Arial, sans-serif" font-size="17" letter-spacing="2.5">
+    <text x="48" y="62">TRACELITE / ERROR MONITORING</text><text x="852" y="62" text-anchor="end">03</text>
+  </g>
+  <g fill="url(#surface)" stroke="#4a4a4a">
+    <rect x="68" y="158" width="234" height="111" rx="6"/><rect x="333" y="158" width="234" height="111" rx="6"/><rect x="598" y="158" width="234" height="111" rx="6"/>
+  </g>
+  <g fill="#e5e5e5" font-family="monospace" font-size="23"><text x="89" y="200">ValueError</text><text x="354" y="200">ValueError</text><text x="619" y="200">ValueError</text></g>
+  <g fill="#777"><rect x="89" y="221" width="151" height="3"/><rect x="89" y="237" width="105" height="3"/><rect x="354" y="221" width="151" height="3"/><rect x="354" y="237" width="105" height="3"/><rect x="619" y="221" width="151" height="3"/><rect x="619" y="237" width="105" height="3"/></g>
+  <g fill="none" stroke="#666" stroke-width="1.3"><path d="M185 269v48q0 20 20 20h490q20 0 20-20v-48M450 269v68"/><path d="M450 337v50" marker-end="url(#arrow)"/></g>
+  <rect x="207" y="389" width="486" height="72" rx="36" fill="url(#surface)" stroke="#777"/>
+  <g fill="#ddd" font-family="Arial, sans-serif" font-size="23" text-anchor="middle"><text x="336" y="433">Python SDK</text><text x="568" y="433">FastAPI</text></g>
+  <path d="M426 425h55" stroke="#888" marker-end="url(#arrow)"/>
+  <path d="M450 461v101" stroke="#666" marker-end="url(#arrow)"/>
+  <rect x="306" y="498" width="288" height="31" fill="#141414"/>
+  <text x="450" y="520" text-anchor="middle" fill="#aaa" font-family="Arial, sans-serif" font-size="17" letter-spacing="1.5">SHA-256 FINGERPRINT</text>
+  <rect x="207" y="565" width="486" height="183" rx="7" fill="url(#surface)" stroke="#888"/>
+  <text x="237" y="605" fill="#aaa" font-family="Arial, sans-serif" font-size="17" letter-spacing="1.5">ONE GROUPED ISSUE</text>
+  <text x="237" y="648" fill="#f0f0f0" font-family="monospace" font-size="30">ValueError</text>
+  <rect x="605" y="617" width="58" height="40" rx="6" fill="#272727" stroke="#666"/>
+  <text x="634" y="645" text-anchor="middle" fill="#eee" font-family="Arial, sans-serif" font-size="24">×3</text>
+  <path d="M237 678h426" stroke="#3d3d3d"/>
+  <text x="237" y="716" fill="#aaa" font-family="Arial, sans-serif" font-size="20">Stack trace + occurrence count</text>
+  <text x="450" y="797" text-anchor="middle" fill="#b6b6b6" font-family="Arial, sans-serif" font-size="21">Ready for review in the React dashboard</text>
+  <path d="M48 835h804" stroke="#303030"/>
+  <g font-family="Arial, sans-serif" font-size="14" letter-spacing="1.8" fill="#888"><text x="48" y="869">CAPTURE / GROUP / INSPECT</text><text x="852" y="869" text-anchor="end">ILLUSTRATIVE WORKFLOW</text></g>
+</svg>
